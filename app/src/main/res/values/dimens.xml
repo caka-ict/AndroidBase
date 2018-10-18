@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="elevation">8dp</dimen>
+    <dimen name="radius_corner">5dp</dimen>
+
+    <!--Header toolbar-->
+    <dimen name="header_view_start_margin_left">16dp</dimen>
+    <dimen name="header_view_end_margin_left">40dp</dimen>
+    <dimen name="header_view_end_margin_right">14dp</dimen>
+    <dimen name="header_view_start_margin_bottom">14dp</dimen>
+    <!--End Header toolbar-->
+
+    <!--Toast-->
+    <dimen name="toast_width">200dp</dimen>
+    <dimen name="ic_size">25dp</dimen>
+
+    <dimen name="default_text_size">16sp</dimen>
+    <dimen name="default_corner_radius">30dp</dimen>
+
+    <!--These two are only used when an icon is applied to the StyleableToast-->
+    <dimen name="toast_horizontal_padding_icon_side">22dp</dimen>
+    <dimen name="toast_horizontal_padding_empty_side">22dp</dimen>
+
+    <dimen name="toast_horizontal_padding">25dp</dimen>
+    <dimen name="toast_vertical_padding">11.2dp</dimen>
+
+    <dimen name="drawable_padding">8dp</dimen>
+    <dimen name="icon_size">19dp</dimen>
+
+    <!--End Toast-->
+
+    <!--Padding-->
+    <dimen name="padding">8dp</dimen>
+    <dimen name="padding_left">@dimen/padding</dimen>
+    <dimen name="padding_top">@dimen/padding</dimen>
+    <dimen name="padding_right">@dimen/padding</dimen>
+    <dimen name="padding_bottom">@dimen/padding</dimen>
+
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_left_10">10dp</dimen>
+    <dimen name="padding_top_10">10dp</dimen>
+    <dimen name="padding_right_10">10dp</dimen>
+    <dimen name="padding_bottom_10">10dp</dimen>
+
+    <dimen name="padding_15">15dp</dimen>
+    <dimen name="padding_left_15">15dp</dimen>
+    <dimen name="padding_top_15">15dp</dimen>
+    <dimen name="padding_right_15">15dp</dimen>
+    <dimen name="padding_bottom_15">15dp</dimen>
+
+    <dimen name="padding_20">20dp</dimen>
+    <dimen name="padding_left_20">20dp</dimen>
+    <dimen name="padding_top_20">20dp</dimen>
+    <dimen name="padding_right_20">20dp</dimen>
+    <dimen name="padding_bottom_20">20dp</dimen>
+
+
+    <dimen name="padding_input">5dp</dimen>
+    <dimen name="padding_input_left">5dp</dimen>
+    <dimen name="padding_input_top">5dp</dimen>
+    <dimen name="padding_input_right">5dp</dimen>
+    <dimen name="padding_input_bottom">5dp</dimen>
+
+    <!--Marggin-->
+    <dimen name="margin">8dp</dimen>
+    <dimen name="margin_left">@dimen/margin</dimen>
+    <dimen name="margin_top">@dimen/margin</dimen>
+    <dimen name="margin_right">@dimen/margin</dimen>
+    <dimen name="margin_bottom">@dimen/margin</dimen>
+
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_left_10">10dp</dimen>
+    <dimen name="margin_top_10">10dp</dimen>
+    <dimen name="margin_right_10">10dp</dimen>
+    <dimen name="margin_bottom_10">10dp</dimen>
+
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_left_15">15dp</dimen>
+    <dimen name="margin_top_15">15dp</dimen>
+    <dimen name="margin_right_15">15dp</dimen>
+    <dimen name="margin_bottom_15">15dp</dimen>
+
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_left_20">20dp</dimen>
+    <dimen name="margin_top_20">20dp</dimen>
+    <dimen name="margin_right_20">20dp</dimen>
+    <dimen name="margin_bottom_20">20dp</dimen>
+
+    <dimen name="margin_input_item">5dp</dimen>
+    <dimen name="margin_input_left_item">5dp</dimen>
+    <dimen name="margin_input_top_item">5dp</dimen>
+    <dimen name="margin_input_right_item">5dp</dimen>
+    <dimen name="margin_input_bottom_item">5dp</dimen>
+
+    <!--Height view-->
+    <dimen name="min_height_button">40dp</dimen>
+    <dimen name="min_height_label">35dp</dimen>
+
+    <!--Text Size-->
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_14.5">14.5sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_21">21sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_28">28sp</dimen>
+    <dimen name="text_size_32">32sp</dimen>
+
+
+    <!--Menu main-->
+    <dimen name="size_icon_menu_main">24dp</dimen>
+
+</resources>

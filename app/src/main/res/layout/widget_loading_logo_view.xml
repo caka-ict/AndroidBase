@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/color_transparent">
+
+    <ImageView
+        android:id="@+id/ivProgress"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:clickable="true"
+        android:contentDescription="@string/app_name"
+        android:padding="@dimen/padding"
+        android:scaleType="fitCenter" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="81dp"
+        android:layout_height="81dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/circle_progress"
+        android:indeterminate="false"
+        android:indeterminateTint="#048BCD"
+        android:progressDrawable="@drawable/circle_shape_progress" />
+
+</RelativeLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="EditTextCakaICT">
+        <attr name="textHintSize" format="dimension" />
+        <attr name="iconDrawableBefore" format="integer" />
+        <attr name="iconDrawableAfter" format="integer" />
+        <attr name="iconColorBefore" format="color" />
+        <attr name="iconColorAfter" format="color" />
+        <attr name="typeEditText" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="clear_text" value="1" />
+            <enum name="user_account" value="2" />
+            <enum name="show_password" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="chipLayout">
+        <attr name="android:gravity" />
+    </declare-styleable>
+    <declare-styleable name="chipLayout_Layout">
+        <attr name="android:layout_gravity" />
+    </declare-styleable>
+
+    <declare-styleable name="chip_layout">
+        <attr name="textSize_" format="dimension" />
+        <attr name="chipPadding_" format="dimension" />
+        <attr name="chipPaddingLeft_" format="dimension" />
+        <attr name="chipPaddingRight_" format="dimension" />
+        <attr name="chipPaddingTop_" format="dimension" />
+        <attr name="chipPaddingBottom_" format="dimension" />
+        <attr name="chipTextPadding_" format="dimension" />
+        <attr name="chipTextPaddingLeft_" format="dimension" />
+        <attr name="chipTextPaddingRight_" format="dimension" />
+        <attr name="chipTextPaddingTop_" format="dimension" />
+        <attr name="chipTextPaddingBottom_" format="dimension" />
+        <attr name="textColor_" format="color" />
+        <attr name="hintColor_" format="color" />
+        <attr name="chipColor_" format="color" />
+        <attr name="showText_" format="boolean" />
+        <attr name="hint_" format="string" />
+        <attr name="showDeleteButton_" format="boolean" />
+        <attr name="deleteIcon_" format="reference" />
+        <attr name="chipDrawable_" format="reference" />
+        <attr name="chipLayoutDrawable_" format="reference" />
+        <attr name="labelPosition_" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ToastCaka">
+        <attr name="textBold" format="boolean" />
+        <attr name="textColor" format="color" />
+        <attr name="font" format="reference" />
+        <attr name="textSize" format="dimension" />
+        <attr name="colorBackground" format="color" />
+        <attr name="solidBackground" format="boolean" />
+        <attr name="radius" format="dimension" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="strokeColor" format="color" />
+        <attr name="iconStart" format="reference" />
+        <attr name="iconEnd" format="reference" />
+        <attr name="length" format="integer">
+            <enum name="LONG" value="1" />
+            <enum name="SHORT" value="0" />
+        </attr>
+        <attr name="gravity" format="integer">
+            <enum name="center" value="1" />
+            <enum name="top" value="2" />
+        </attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableLayout">
+        <attr name="el_duration" format="integer" />
+        <attr name="el_expanded" format="boolean" />
+        <attr name="el_parallax" format="float" />
+        <attr name="android:orientation"/>
+    </declare-styleable>
+
+    <declare-styleable name="CheckBoxCaka">
+        <attr name="check_style">
+            <enum name="fork" value="0" />
+            <enum name="hook" value="1" />
+        </attr>
+        <attr name="color_before" format="color" />
+        <attr name="color_after" format="color" />
+        <attr name="check_text" format="string" />
+        <attr name="show_border" format="boolean"/>
+        <attr name="is_circle_border" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="SmoothCheckBox">
+        <attr name="duration" format="integer"/>
+        <attr name="stroke_width" format="dimension"/>
+        <attr name="color_tick" format="color"/>
+        <attr name="color_checked" format="color"/>
+        <attr name="color_unchecked" format="color"/>
+        <attr name="color_unchecked_stroke" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="SlidingUpPanelLayout">
+        <attr name="umanoPanelHeight" format="dimension" />
+        <attr name="umanoShadowHeight" format="dimension" />
+        <attr name="umanoParallaxOffset" format="dimension" />
+        <attr name="umanoFadeColor" format="color" />
+        <attr name="umanoFlingVelocity" format="integer" />
+        <attr name="umanoDragView" format="reference" />
+        <attr name="umanoScrollableView" format="reference" />
+        <attr name="umanoOverlay" format="boolean"/>
+        <attr name="umanoClipPanel" format="boolean"/>
+        <attr name="umanoAnchorPoint" format="float" />
+        <attr name="umanoInitialState" format="enum">
+            <enum name="expanded" value="0" />
+            <enum name="collapsed" value="1" />
+            <enum name="anchored" value="2" />
+            <enum name="hidden" value="3" />
+        </attr>
+        <attr name="umanoScrollInterpolator" format="reference" />
+    </declare-styleable>
+
+</resources>
